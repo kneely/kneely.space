@@ -1,94 +1,278 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
-    <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner" role="listbox">
-        <div class="item active">
-            <img src="~/images/banner1.svg" alt="ASP.NET" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how to build ASP.NET apps that can run anywhere.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525028&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner2.svg" alt="Visual Studio" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    There are powerful new features in Visual Studio for building modern web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525030&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
-        <div class="item">
-            <img src="~/images/banner3.svg" alt="Microsoft Azure" class="img-responsive" />
-            <div class="carousel-caption" role="option">
-                <p>
-                    Learn how Microsoft's Azure cloud platform allows you to build, deploy, and scale web apps.
-                    <a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkID=525027&clcid=0x409">
-                        Learn More
-                    </a>
-                </p>
-            </div>
-        </div>
+<body class="bg-fixed bg-1">
+    <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+<div class="main-container">
+<div class="main wrapper clearfix">
+<!-- Header Start -->
+<header id="header">
+    <div id="logo">
+        <h2>
+            Kevin Neely
+        </h2>
+        <h4>
+            Web Developer
+        </h4>
     </div>
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
+</header>
+<!-- Header End -->
+<!-- Main Tab Container -->
+<div id="tab-container" class="tab-container">
+<!-- Tab List -->
+<ul class="etabs">
+    <li class="tab" id="tab-about">
+        <a href="#about">
+            <i></i>
+            <span> About Me</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="#resume">
+            <i></i>
+            <span> Resume</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="#portfolio">
+            <i></i>
+            <span> Portfolio</span>
+        </a>
+    </li>
+    <li class="tab">
+        <a href="#contact">
+            <i></i>
+            <span> Contact</span>
+        </a>
+    </li>
+</ul>
+<!-- End Tab List -->
+<div id="tab-data-wrap">
+<!-- About Tab Data -->
+<div id="about">
+    <section class="clearfix">
+        <div class="g2">
+            <div class="photo">
+                <img src="~/images/me.png" alt="Kevin Neely">
+            </div>
+            <div class="info">
+                <h2>
+                    Kevin Neely
+                </h2>
+                <h4>
+                    Web Developer
+                </h4>
+                <div>
+                    <p class="text-left">
+                        I am a transitioning Marine Corps Veteran seeking a position which will leverage the leadership, adaptability and project management skills I developed in the military.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="g1">
+            <div class="main-links sidebar">
+                <h5>
+                    Download
+                </h5>
+                <p>Download my Resume</p>
+                <p><a href="files/Kevin Neely Resume.docx" class="btn-sm btn btn-primary active">Download</a></p>
+            </div>
+        </div>
+        <div class="break"></div>
+        <div class="contact-info row">
+            <div class="col-sm-3">
+                <div class="item-box clearfix">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div class="item-data">
+                        <h3>
+                            <a href="mailto:kevin.r.neely@outlook.com">kevin.r.neely</a>
+                        </h3>
+                        <p>Email Address</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="item-box clearfix">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                    <div class="item-data">
+                        <h3>
+                            <a href="https://linkedin.com/in/kevin-neely">kevin-neely</a>
+                        </h3>
+                        <p>LinkedIn</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="item-box clearfix">
+                    <i class="fa fa-github"></i>
+                    <div class="item-data">
+                        <h3>
+                            <a href="https://github.com/kneely">kneely</a>
+                        </h3>
+                        <p>New Github</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="item-box clearfix">
+                    <i class="fa fa-github"></i>
+                    <div class="item-data">
+                        <h3>
+                            <a href="https://github.com/xkevinx45">xkevinx45</a>
+                        </h3>
+                        <p>Old Github</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- content -->
 </div>
-
-<div class="row">
-    <div class="col-md-3">
-        <h2>Application uses</h2>
-        <ul>
-            <li>Sample pages using ASP.NET Core MVC</li>
-            <li>Theming using <a href="https://go.microsoft.com/fwlink/?LinkID=398939">Bootstrap</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>How to</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398600">Add a Controller and View</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699315">Manage User Secrets using Secret Manager.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699316">Use logging to log a message.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699317">Add packages using NuGet.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699319">Target development, staging or production environment.</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Overview</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=518008">Conceptual overview of what is ASP.NET Core</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=699320">Fundamentals of ASP.NET Core such as Startup and middleware.</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398602">Working with Data</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkId=398603">Security</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699321">Client side development</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699322">Develop on different platforms</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=699323">Read more on the documentation site</a></li>
-        </ul>
-    </div>
-    <div class="col-md-3">
-        <h2>Run &amp; Deploy</h2>
-        <ul>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517851">Run your app</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=517853">Run tools such as EF migrations and more</a></li>
-            <li><a href="https://go.microsoft.com/fwlink/?LinkID=398609">Publish to Microsoft Azure Web Apps</a></li>
-        </ul>
-    </div>
+<!-- End About Tab Data -->
+<!-- Resume Tab Data -->
+<div id="resume">
+    <section class="clearfix">
+        <div class="g2">
+            <h3>
+                Education
+            </h3>
+            <ul class="no-list work">
+                <li>
+                    <h5>
+                        Microsoft Software and Systems Academy (MSSA)
+                    </h5>
+                    <span class="label label-info">Expected Graduation July 2018</span>
+                    <p>
+                        Obtained the Microsoft Technology Associate (MTA 98-361) certification for Software Development Fundamentals as pre-requisite for the Microsoft Software and Systems Academy. MSSA is an 18-week, full time, hands-on IT training program developed by Microsoft. The program leverages college accredited courses and the goal of preparing transitioning service members for careers in technology.<br /><br />
+                        •	Designed, composed, and built applications using the ASP.NET framework<br />
+                        •	Experience with Azure cloud platform<br />
+                        •	Experience designing with HTML5<br />
+                        •	Performed unit and integration testing so validate solutions with ASP.NET projects<br />
+                        •	Understanding of C#, T-SQL, and ASP.NET MVC<br />
+                        •	Experience designing web page with JavaScript<br />
+                        •	Experience using developing user interface design using XML<br />
+                        •	Gained intermediate knowledge of developing and coding web and desktop applications primarily in ASP.NET environment<br />
+                        •	Responsible for programming, testing, documenting, and managing data on new/existing software projects<br />
+                    </p>
+                </li>
+            <h3>
+                Work Experience
+            </h3>
+            <ul class="no-list work">
+                <li>
+                    <h5>
+                        United States Marine Corps
+                    </h5>
+                    <span class="label label-success">2013-2018</span>
+                    <p>
+                        <h6>Transportation and Logistics Specialist</h6><br /><br />
+                        •	Solely responsible for redeveloping and delivering high quality Standard Operating Procedures (SOP’s) enabling tactical vehicle licenses to be acquired 22% faster than previously resulting in a 20% boost in productivity<br />
+                        •	Regarded as a Subject Matter Expert (SME), providing deep technical knowledge responsible for coaching and mentoring 200+ personnel including vehicle knowledge, systems operations, and technical proficiency resulting in 100% success rate, increased technical acumen, and team cohesiveness<br />
+                        •	Managed and oversaw 2,000+ training and deployment missions, responsible for collaborating with Senior Leadership for gear transportation and personnel including fuel, weapons, and military cargo resulting in 100% mission success and zero incidents over 42-month timeframe<br />
+                        •	Managed and oversaw $3M+ worth of military equipment including weapons, vehicle parts, and personnel resulting in 100% accountability and zero loss of assets<br />
+                        •	Managed and oversaw 20+ team members acting as the primary onsite technical advisor providing professional/career development, training requirements, and personal guidance ensuring individuals were 100% within compliance of training procedures and Marine Corps. standards<br />
+                        •	Demonstrated excellent customer service as a trusted advisor; regarded as SME providing high-level guidance while obtaining tactical vehicle licenses creating a more efficient and streamlined process<br />
+                    </p>
+                </li>
+            </ul></ul>
+        </div>
+        <div class="g1">
+            <div class="sidebar">
+                <h3>
+                    Skills
+                </h3>
+                <h5>
+                    Programming Language
+                </h5>
+                <div class="meter emerald">
+                    <span style="width: 90%">
+                        <span>HTML/CSS</span>
+                    </span>
+                </div>
+                <div class="meter carrot">
+                    <span style="width: 80%">
+                        <span>C#/ASP.NET</span>
+                    </span>
+                </div>
+                <div class="meter wisteria">
+                    <span style="width: 75%">
+                        <span>JavaScript</span>
+                    </span>
+                </div>
+                <div class="meter asbestos">
+                    <span style="width: 60%">
+                        <span>Python</span>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
+<!-- End Resume Tab Data -->
+<!-- Portfolio Tab Data -->
+<div id="portfolio">
+    <section class="clearfix">
+        <div class="g1 img-responsive center-block">
+            <div class="image">
+                <img src="~/images/Shauna.jpg" alt="">
+                <div class="image-overlay">
+                    <div class="image-link">
+                        <a href="https://honeydewfamily.com" class="btn">Honey Dew Family</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- End Portfolio Data -->
+<!-- Contact Tab Data -->
+<div id="contact">
+    <section class="clearfix">
+        <div class="col-sm-4">
+            <div class="sny-icon-box">
+                <div class="sny-icon">
+                    <i class="fa fa-phone"></i>
+                </div>
+                <div class="sny-icon-content">
+                    <h4>Mobile Number</h4>
+                    <p>
+                        <a href="tel:865-321-3690">865-321-3690</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="sny-icon-box">
+                <div class="sny-icon text-center">
+                    <i class="fa fa-envelope"></i>
+                </div>
+                <div class="sny-icon-content">
+                    <h4>Email</h4>
+                    <p><a href="mailto:kevin.r.neely@outlook.com" class="btn btn-primary active btn-group-sm">Email</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="sny-icon-box">
+                <div class="sny-icon">
+                    <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+                </div>
+                <div class="sny-icon-content">
+                    <h4>LinkedIn</h4>
+                    <p><a href="https://linkedin.com/in/kevin-neely">kevin-neely</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="break"></div>
+
+    </section>
+</div>
+<!-- End Contact Data -->
+</div>
+</div>
+<!-- End Tab Container -->
+</div>
+</div>
+</body>
